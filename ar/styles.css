@@ -31,21 +31,8 @@ body {
 }
 
 footer {
-    background-color: #004085;
-    color: white;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    background-color: #f8f9fa;
+    color: #6c757d;
 }
 
 .main-section {
@@ -118,4 +105,43 @@ footer a:hover {
     width: 100%;
     height: 300px; /* Set a fixed height for the images */
     object-fit: cover; /* Ensures the images cover the area without distortion */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color, adjust as needed */
+    margin-bottom: 0.5rem;
+}
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Styling for h1 */
+.heading-primary {
+    font-size: 2.5rem;   /* Larger font size for main heading */
+    font-weight: bold;
+    color: #2C3E50;      /* Darker color for prominence */
+    text-align: center;  /* Center-align the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase; /* Make the heading uppercase for emphasis */
+}
+
+/* Styling for h2 */
+.heading-secondary {
+    font-size: 2rem;     /* Slightly smaller than h1 */
+    font-weight: 600;
+    color: #34495E;      /* A slightly lighter shade */
+    margin-bottom: 15px; /* Space below the heading */
+    text-decoration: underline; /* Underline for added emphasis */
+}
+
+/* General text styling */
+main p {
+    font-size: 1.125rem;  /* Standard text size */
+    line-height: 1.6;     /* Line height for better readability */
+    color: #7F8C8D;       /* Lighter color for text */
+    text-align: justify;  /* Justified text for cleaner layout */
 }
