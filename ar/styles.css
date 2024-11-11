@@ -17,7 +17,7 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(to right, #007bff, #00c6ff);
+    background-color: #00c6ff;
     color: white;
     padding: 100px 0;
 }
@@ -144,4 +144,35 @@ main p {
     line-height: 1.6;     /* Line height for better readability */
     color: #7F8C8D;       /* Lighter color for text */
     text-align: justify;  /* Justified text for cleaner layout */
+}
+/* Center the image horizontally and add spacing around it */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0; /* Add some spacing around the image */
+}
+
+.centered-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a soft shadow around the image */
+}
+
+/* Optional: Style the heading and text */
+.heading-primary {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2C3E50;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
